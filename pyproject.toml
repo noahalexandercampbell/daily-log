@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "daily-log"
+version = "0.1.0"
+description = "Review and normalize notebook-style daily logs from a lightweight CLI and Python library."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Dr. Noah Alexander Campbell", email = "292663496+noahalexandercampbell@users.noreply.github.com"},
+]
+keywords = ["cli", "daily-log", "journal", "logs", "notebook", "python"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/noahalexandercampbell/daily-log"
+Homepage = "https://github.com/noahalexandercampbell/daily-log"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["daily_log*"]
