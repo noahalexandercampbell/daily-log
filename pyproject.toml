@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "daily-log"
@@ -24,6 +24,9 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = []
+
+[project.scripts]
+"daily-log" = "daily_log.cli:main"
 
 [project.urls]
 Repository = "https://github.com/noahalexandercampbell/daily-log"
