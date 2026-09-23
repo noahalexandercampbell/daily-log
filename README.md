@@ -1,4 +1,4 @@
-# daily-log
+# daily-log [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Lightweight CLI and Python library for reviewing and normalizing notebook-style daily logs.
 
