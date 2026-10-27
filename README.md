@@ -16,8 +16,10 @@ pip install daily-log
 
 ## Usage
 
+`review` accepts a single daily-log FILE:
+
 ```bash
-daily-log review /path/to/logs
+daily-log review /path/to/daily.log
 ```
 
 ## License
